@@ -46,7 +46,7 @@ const Login = () => {
         className="bg-white/10 backdrop-blur-lg p-10 rounded-2xl w-[400px]"
       >
         <h1 className="text-4xl mb-6 font-bold text-center">
-          Login
+          Welcome Back! Login
         </h1>
 
         <input
