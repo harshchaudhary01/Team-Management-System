@@ -31,7 +31,11 @@ const Login = () => {
 
       navigate("/dashboard");
     } catch (error) {
-      alert(error.response.data.message);
+      const message =
+        error.response?.data?.message ||
+        error.message ||
+        "Something went wrong";
+      alert(message);
     }
   };
 
